@@ -164,12 +164,12 @@ For this particular project sentiment analysis was not useful, as the sentiment 
 <a name="sources"></a>
 ## Sources
 
-Selenium - https://www.selenium.dev/
-Beautifulsoup - https://www.crummy.com/software/BeautifulSoup/
-spaCy - https://spacy.io/
-Geocode with Python https://towardsdatascience.com/geocode-with-python-161ec1e62b89
-Content-based Recommender https://www.kdnuggets.com/2019/11/content-based-recommender-using-natural-language-processing-nlp.html
-STR Ratings https://hotelnewsnow.com/Media/Default/Images/chainscales.pdf
-DSI 720 Lessons 5.1 and 5.2
-DSI 720 Group 5 Project 4 (Plotly mapping)
+- Selenium - https://www.selenium.dev/
+- Beautifulsoup - https://www.crummy.com/software/BeautifulSoup/
+- spaCy - https://spacy.io/
+- Geocode with Python https://towardsdatascience.com/geocode-with-python-161ec1e62b89
+- Content-based Recommender https://www.kdnuggets.com/2019/11/content-based-recommender-using-natural-language-processing-nlp.html
+- STR Ratings https://hotelnewsnow.com/Media/Default/Images/chainscales.pdf
+- DSI 720 Lessons 5.1 and 5.2
+- DSI 720 Group 5 Project 4 (Plotly mapping)
 Streamlit https://www.streamlit.io/
