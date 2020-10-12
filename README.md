@@ -172,4 +172,4 @@ For this particular project sentiment analysis was not useful, as the sentiment 
 - STR Ratings https://hotelnewsnow.com/Media/Default/Images/chainscales.pdf
 - DSI 720 Lessons 5.1 and 5.2
 - DSI 720 Group 5 Project 4 (Plotly mapping)
-Streamlit https://www.streamlit.io/
+- Streamlit https://www.streamlit.io/
