@@ -14,23 +14,24 @@ Can hotel recommendations be made based off a descriptive input from a user rega
 - [Recommender](#recommender)
 - [Conclusions](#conclusions)
 - [Future Developments](#future)
-- [Citations](#cite)
+- [Sources](#sources)
 
 
 <a name="projectdirectory"></a>
 ## Project Directory
     
 ```
-project_3-master
 1_Final_cleaning_and_combinning.ipynb
 2_Creating_Vectors.ipnyb
 3_Creating_GeoCodes.ipnyb
 4_building_the_recommender_Version3.ipynb
+
 |__ assets 
 |   |__ cm_benchmark.png
 |   |__ cm_continuous.png
 |   |__ cm_tuned.png
 |   |__ conclusion.png
+
 |__ data  
 |   |__ all_hotels_cleaned.csv  
 |   |__ data_with_geocodes.csv  
@@ -40,8 +41,10 @@ project_3-master
 |   |__ final_marriott.csv
 |   |__ final_radisson.csv 
 |   |__ final_wyndham.csv  
+
 |__ streamlit  
 |   |__ app.py  
+
 |__ webscraping       
 |   |__ Hilton 
 |     |__ Hilton_labeling.ipynb 
@@ -90,7 +93,8 @@ project_3-master
 |     |__ Wyndham_collect_desc.ipynb 
 |     |__ Wyndhamm_collect_urls_names.ipynb 
 |     |__ Wyndhamm_ratings.ipynb 
-|__ Project4Presentation.pdf
+
+|__ Presentation.pdf
 |__ README.md  
 
 ```
@@ -144,5 +148,28 @@ The first paramaters are used to filter the dataset to appropriate choices, and 
 <a name="conclusions"></a>
 ## Conclusions
 
+For this project there is no “accuracy score”, however without the inclusion of radius as a filter the results are not perfect. For example the first search for a hotel in Washington, DC on the entire dataset resulted in only 2 of the top 10 results being in Washington, DC area.  There are inherent limitations for hotels which do not include a lot of text descriptions; such as many of the Hilton properties which include only a small paragraph. For these the use of the extra spaCy features would probably be helpful. Performing NLP and Vectorizing on the filtered data instead of all 21000 hotels is much more reasonable. If I were to use a dataset of prevectorized data the file size would have been 180 MB, to large to manage. 
+For this particular project sentiment analysis was not useful, as the sentiment for most hotel descriptions is positive, however this could be useful when utilizing guest reviews of hotels.
+
 <a name="future"></a>
 ## Future Development
+
+- Collect data on amenities offered by hotels
+- Collect data from other hotel chains
+- Collect reviews from guests to use in sentiment analysis
+- Incorporate use of other features from tokenized spaCy docs
+- Deploy a version which can link directly to hotel websites
+- See if I can take a user description and predict the type of hotel they are seeking, and see how it compares with the filters they choose
+
+<a name="sources"></a>
+## Sources
+
+Selenium - https://www.selenium.dev/
+Beautifulsoup - https://www.crummy.com/software/BeautifulSoup/
+spaCy - https://spacy.io/
+Geocode with Python https://towardsdatascience.com/geocode-with-python-161ec1e62b89
+Content-based Recommender https://www.kdnuggets.com/2019/11/content-based-recommender-using-natural-language-processing-nlp.html
+STR Ratings https://hotelnewsnow.com/Media/Default/Images/chainscales.pdf
+DSI 720 Lessons 5.1 and 5.2
+DSI 720 Group 5 Project 4 (Plotly mapping)
+Streamlit https://www.streamlit.io/
