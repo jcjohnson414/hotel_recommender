@@ -22,19 +22,15 @@ Can hotel recommendations be made based off a descriptive input from a user rega
     
 ```
 project_3-master
+1_Final_cleaning_and_combinning.ipynb
+2_Creating_Vectors.ipnyb
+3_Creating_GeoCodes.ipnyb
+4_building_the_recommender_Version3.ipynb
 |__ assets 
 |   |__ cm_benchmark.png
 |   |__ cm_continuous.png
 |   |__ cm_tuned.png
 |   |__ conclusion.png
-|__ webscraping       
-|   |__ Hilton 
-|     |__ Hilton_labeling.ipynb 
-|   |__ Hyatt
-|   |__ IHG  
-|   |__ Marriott
-|   |__ Radisson 
-|   |__ Wyndham
 |__ data  
 |   |__ all_hotels_cleaned.csv  
 |   |__ data_with_geocodes.csv  
@@ -44,6 +40,56 @@ project_3-master
 |   |__ final_marriott.csv
 |   |__ final_radisson.csv 
 |   |__ final_wyndham.csv  
+|__ streamlit  
+|   |__ app.py  
+|__ webscraping       
+|   |__ Hilton 
+|     |__ Hilton_labeling.ipynb 
+|     |__ Sample_Hilton_Ratings_Collector.ipynb
+|     |__ Sample_Hilton_Web_Scraping.ipynb
+|   |__ Hyatt
+|     |__ Finding_missing_hyatt_ratings.ipynb 
+|     |__ Hyatt_get_descriptions.ipynb
+|     |__ Hyatt_Scraping.ipynb
+|   |__ IHG  
+|     |__ IHG_Addresses_Descriptions.ipynb 
+|     |__ IHG_Addresses_Descriptions2.ipynb 
+|     |__ IHG_Addresses_Descriptions3.ipynb 
+|     |__ IHG_Addresses_Descriptions4.ipynb 
+|     |__ IHG_Addresses_Descriptions5.ipynb 
+|     |__ IHG_Filling_in_ratings.ipynb 
+|     |__ IHG_Filling_Labeling.ipynb 
+|   |__ Marriott
+|     |__ ACHotels.ipynb 
+|     |__ aloft.ipynb 
+|     |__ autograph.ipynb 
+|     |__ Courtyard.ipynb 
+|     |__ DeltaHotels.ipynb 
+|     |__ Fairfield.ipynb 
+|     |__ Fourpoints.ipynb 
+|     |__ jwmarriott.ipynb 
+|     |__ lemeredian.ipynb 
+|     |__ luxurycollection.ipynb 
+|     |__ Marriott.ipynb 
+|     |__ Marriott_combining.ipynb 
+|     |__ moxy.ipynb 
+|     |__ Renaissance.ipynb 
+|     |__ residenceinn.ipynb 
+|     |__ ritz-carlton.ipynb 
+|     |__ Sheraton.ipynb 
+|     |__ Springhill.ipynb 
+|     |__ stregis.ipynb 
+|     |__ TownPlace.ipynb 
+|     |__ tribute.ipynb 
+|     |__ westin.ipynb 
+|     |__ whotel.ipynb 
+|   |__ Radisson 
+|     |__ Radisson_Missing_Ratings.ipynb 
+|     |__ Radisson_urls_descriptions.ipynb 
+|   |__ Wyndham
+|     |__ Wyndham_collect_desc.ipynb 
+|     |__ Wyndhamm_collect_urls_names.ipynb 
+|     |__ Wyndhamm_ratings.ipynb 
 |__ Project4Presentation.pdf
 |__ README.md  
 
